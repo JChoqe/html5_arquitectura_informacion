@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=+, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arquitectura de informacion</title>
+    <link rel="icon" href="power.png">
 </head>
 <body>
-    
+    <nav>
+        <img src="ufc.png" alt="ufc">
+        <ul>
+            <li>Eventos</li>
+            <li>Ranking</li>
+            <li>Leyendas</li>
+            <li>Noticias</li>
+        </ul>
+        <form>
+            <label for="buscar">Buscador: </label>
+            <input type="text" id="buscar" name="buscar" placeholder="¿Que quieres buscar?">
+            <input type="submit" value="Buscar">
+        </form>
+    </nav>
+    <header>
+        <h1>
+            Historia de UFC
+        </h1>
+    </header>
+    <main>
+        <article>
+            <p>FC (Ultimate Fighting Championship) es una organización de artes marciales mixtas (MMA) con sede en los Estados Unidos. Fue fundada en 1993 por Rorion Gracie, Art Davie, John Milius y Robert Meyrowitz con el objetivo de determinar qué sistema de lucha era el más efectivo en una pelea sin reglas.</p>
+            <p> 
+                Dato:
+                <q>Milius ayudó a concebir la idea original de la UFC y a escribir el guión del primer evento en 1993, junto con Rorion Gracie, Art Davie y Robert Meyrowitz. Sin embargo, su participación en la compañía fue limitada y dejó la empresa después del primer evento.</q>
+            </p>
+            <p>
+                En los primeros días del UFC, las peleas eran muy diferentes a las que vemos hoy en día. No había casi ninguna regla y se permitían técnicas como golpes bajos, golpes en la nuca y otras técnicas. <br>
+                La primera pelea de UFC tuvo lugar el 12 de noviembre de 1993 en Denver, Colorado, Estados Unidos. El evento, conocido como UFC 1, fue organizado por el empresario Art Davie y el luchador Rorion Gracie. El objetivo del evento era determinar cuál era la mejor disciplina de artes marciales, y se invitó a luchadores de diferentes disciplinas, como boxeo, lucha, karate, taekwondo y jiu-jitsu brasileño, para competir en un torneo de estilo libre sin reglas <br>
+                El torneo constó de ocho peleadores y se luchó en un octágono de 8 pies de diámetro. La primera pelea de la noche fue entre Gerard Gordeau, un luchador holandés de savate, y Teila Tuli, un luchador de sumo de Hawái. Gordeau ganó la pelea en menos de un minuto con una patada en la cara que dejó a Tuli con una fractura en la mandíbula.
+            </p>
+        </article>
+        <section>
+            <h3>
+                ¿UFC estuvo apunto de irse a la quiebra?
+            </h3>
+            <p>
+                Como ya mencionamos, en los primeros años de UFC, las peleas eran muy diferentes a las que vemos hoy en día, la promoción de las peleas se centraba en la violencia y la sangre. Como resultado, el UFC tuvo problemas para conseguir patrocinadores y se encontró con una gran resistencia por parte de las autoridades deportivas y los medios de comunicación. <br>
+
+                En el año 2000, el UFC fue vendido a Zuffa LLC, un grupo liderado por Lorenzo y Frank Fertitta, quienes contrataron a Dana White como director ejecutivo. La nueva dirección de UFC implementó una serie de cambios para hacer el deporte más seguro y aceptable para el público en general, y prohibieron técnicas consideradas peligrosas. Además, la promoción se volvió más profesional y se centró en la competencia deportiva en lugar de la violencia. <br>
+             
+                Con el tiempo, estos cambios ayudaron a transformar el UFC en un deporte más seguro y más aceptable para el público en general, y permitieron a la organización expandirse y ganar un gran número de seguidores y fanáticos.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <form>
+            <h4>Darme de alta</h4>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduzca nombre" required>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="nombre@gmail.com" required>
+            <fieldset>
+                <legend>Genero</legend>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Mujer</label>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="hombre">Otro</label>
+                <input type="radio" id="otro" name="genero" value="otro">
+            </fieldset>
+        </form>
+        &copy Jherlan Choque
+    </footer>
 </body>
 </html>
